@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{font-family:"Helvetica";}
+body,h1,h2,h3,h4,h5,h6,p,ul,li,dl,dd,dt,input,span,strong,em{margin:0;padding:0;-webkit-text-size-adjust:100% ;}
+em{font-style:normal;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#131313;}
+img,input{border:none;}
+a,input,button{-webkit-text-decoration-color:rgba(0,0,0,0);-webkit-appearance:none;}
+i{font-style:normal;font-family:"consolas";}
+img{vertical-align:top;}
+html,body{height:100%;}
+.fl{float:left;}
+.fr{float:right;}
+.clear{clear:both;}
+.clearfix:after{content:"";height:0;font-size:0;display:block;clear:both;}
+.fot{font-size:0;}

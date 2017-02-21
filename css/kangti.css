@@ -1,0 +1,60 @@
+.Img {
+  width: 10rem;
+  height: 7.36rem;
+  position: relative;
+  overflow: hidden;
+}
+.Img .Img_lun {
+  position: absolute;
+  height: 7.36rem;
+}
+.Img .Img_lun li {
+  width: 10rem;
+  height: 7.36rem;
+  float: left;
+}
+.Img .Img_lun li img {
+  width: 10rem;
+  height: 7.36rem;
+}
+.lun_nav {
+  position: absolute;
+  bottom: 0.26666667rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.lun_nav a {
+  display: inline-block;
+  border-radius: 50%;
+  background: #000;
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+}
+.lun_nav a.active {
+  background: #fff;
+}
+.Img_content {
+  text-align: center;
+  color: #fff;
+}
+.Img_content h4 {
+  font-size: 0.42666667rem;
+  padding: 0.66666667rem 0 0.33333333rem 0;
+}
+.Img_content p {
+  font-size: 0.32rem;
+  line-height: 0.46666667rem;
+}
+.btn {
+  text-align: center;
+  padding: 2.48rem 0 0 0;
+}
+button {
+  background: none;
+  border: 1px solid #fff;
+  width: 3.30666667rem;
+  height: 0.82666667rem;
+  font-size: 0.34666667rem;
+  color: #fff;
+  text-align: center;
+}

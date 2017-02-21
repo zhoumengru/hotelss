@@ -1,0 +1,66 @@
+
+@rm:10;
+@pswWidth:750px;
+@ppr:750px/@rm/1rem;// 定义单位.Img_list{
+
+//北苑健身
+.Img{
+  width:750/@ppr;
+  height:552/@ppr;
+  position:relative;
+  overflow: hidden;
+}
+.Img .Img_lun{
+  position:absolute;
+  height:552/@ppr;
+}
+.Img .Img_lun li{
+  width:750/@ppr;
+  height:552/@ppr;
+  float: left;
+}
+.Img .Img_lun li img{
+  width:750/@ppr;
+  height:552/@ppr;
+}
+.lun_nav{
+  position:absolute;
+  bottom:20/@ppr;
+  left:50%;
+  transform: translateX(-50%);
+}
+.lun_nav a{
+  display: inline-block;
+  border-radius:50%;
+  background:#000;
+  width:20/@ppr;
+  height:20/@ppr;
+}
+.lun_nav a.active{
+  background:#fff;
+}
+.Img_content{
+  text-align: center;
+  color:#fff;
+}
+.Img_content h4{
+  font-size:32/@ppr;
+  padding:50/@ppr 0 25/@ppr 0;
+}
+.Img_content p{
+  font-size:24/@ppr;
+  line-height:35/@ppr;
+}
+.btn{
+  text-align: center;
+  padding:186/@ppr 0 0 0;
+}
+button{
+  background:none;
+  border:1px solid #fff;
+  width:248/@ppr;
+  height:62/@ppr;
+  font-size:26/@ppr;
+  color:#fff;
+  text-align: center;
+}

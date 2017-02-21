@@ -1,0 +1,144 @@
+body {
+  background: url("../images/pub_bg.png") no-repeat;
+  overflow: hidden;
+  position: relative;
+}
+.wrap {
+  width: 10rem;
+  height: 100%;
+  overflow: auto;
+}
+.amuse_dex {
+  position: relative;
+  top: 1.17333333rem;
+  width: 10rem;
+}
+nav {
+  width: 9.2rem;
+  padding: 0 0.4rem 0 0.4rem;
+  height: 1.17333333rem;
+  background: #190d07;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+nav li {
+  color: #fff;
+  font-size: 0.4rem;
+  line-height: 1.17333333rem;
+}
+nav li img {
+  width: 100%;
+  height: 100%;
+}
+nav li:not(.tit) {
+  padding-top: 0.33333333rem;
+}
+nav .fan {
+  width: 0.34666667rem;
+  height: 0.48rem;
+}
+nav .cai {
+  width: 0.53333333rem;
+  height: 0.48rem;
+}
+nav .tit {
+  padding-left: 3.46666667rem;
+}
+.nav_first {
+  right: -3.46666667rem;
+  position: fixed;
+  top: 0;
+  width: 2.93333333rem;
+  height: 17.73333333rem;
+  background: #573220;
+  z-index: 99;
+  padding-left: 0.53333333rem;
+}
+@keyframes my_nav_first {
+  0% {
+    right: -3.46666667rem;
+  }
+  100% {
+    right: 0;
+  }
+}
+@-webkit-keyframes my_nav_first {
+  0% {
+    right: -3.46666667rem;
+  }
+  100% {
+    right: 0;
+  }
+}
+.my_nav_first {
+  -webkit-animation: my_nav_first .4s linear forwards;
+  animation: my_nav_first .4s linear forwards;
+}
+@keyframes my_first {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -3.46666667rem;
+  }
+}
+@-webkit-keyframes my_first {
+  0% {
+    right: 0;
+  }
+  100% {
+    right: -3.46666667rem;
+  }
+}
+.my_first {
+  -webkit-animation: my_first .4s linear forwards;
+  animation: my_first .4s linear forwards;
+}
+.nav_first .log_div {
+  position: absolute;
+  top: 0.4rem;
+}
+.nav_first .nav_first_ul {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.nav_first .nav_first_ul li {
+  line-height: 0.90666667rem;
+}
+.nav_first .nav_first_ul a {
+  color: #fff;
+  font-size: 0.48rem;
+}
+.Img_list li {
+  width: 10rem;
+  height: 4.13333333rem;
+  margin-bottom: 0.13333333rem;
+  position: relative;
+}
+.Img_list li img {
+  width: 100%;
+  height: 100%;
+}
+.Img_list li div {
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 8rem;
+  color: #fff;
+  font-size: 0.32rem;
+}
+.Img_list li div p {
+  line-height: 0.45333333rem;
+}
+.Img_list li span {
+  color: #fff;
+  position: absolute;
+  left: 0.4rem;
+  top: 0.26666667rem;
+  font-size: 0.34666667rem;
+}

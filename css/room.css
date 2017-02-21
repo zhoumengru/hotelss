@@ -1,0 +1,108 @@
+.btn {
+  padding: 0;
+}
+.Img_content_cont {
+  padding-top: 0.18666667rem;
+  position: relative;
+}
+.Img_content_cont ul {
+  list-style: disc outside;
+}
+.Img_content_cont li {
+  position: relative;
+  line-height: 0.46666667rem;
+  font-size: 0.29333333rem;
+  text-align: center;
+  padding-left: 0.26666667rem;
+  color: #fff;
+}
+.reserve_content h3 {
+  background: #2e1a10;
+  height: 1.12rem;
+  line-height: 1.12rem;
+  font-size: 0.42666667rem;
+  color: #fff;
+  padding: 0 0.50666667rem 0 0.46666667rem;
+}
+.reserve_bor {
+  font-size: 0.37333333rem;
+  color: #fff;
+  border-bottom: 0.16rem solid #2e1a10;
+}
+.reserve_bor p {
+  height: 1.12rem;
+  line-height: 1.12rem;
+  margin: 0 0.50666667rem 0 0.46666667rem;
+  border-bottom: 1px solid #2e1a10;
+}
+.reserve_bor p i {
+  font-size: 0.46666667rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  text-align: center;
+  padding: 0 0.13333333rem;
+  margin: 0 0.26666667rem;
+}
+.reserve_bor p input {
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 0.37333333rem;
+  color: #fff;
+  padding: 0 0.13333333rem;
+  height: 1.12rem;
+  line-height: 1.12rem;
+}
+.reserve_tabs {
+  color: #fff;
+}
+.reserve_tabs .reserve_tab {
+  padding: 0 0.50666667rem 0 0.46666667rem;
+  font-size: 0.34666667rem;
+  border-bottom: 1px solid #2e1a10;
+  height: 1.12rem;
+  line-height: 1.12rem;
+}
+.reserve_tabs .reserve_tab p {
+  position: relative;
+  float: left;
+  width: 4.02666667rem;
+}
+.reserve_tabs .reserve_tab p.active:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: -2px;
+  width: 4rem;
+  height: 6px;
+  background: #9f7b59;
+}
+.reserve_tabs .reserve_tablist {
+  padding: 0.45333333rem 0.50666667rem 0 0.46666667rem;
+  font-size: 0.32rem;
+}
+.reserve_tablist p {
+  line-height: 0.58666667rem;
+}
+.reserve_foot {
+  position: absolute;
+  bottom: 0;
+  height: 1.54666667rem;
+  width: 10rem;
+  background: #2e1a10;
+}
+.reserve_foot p {
+  font-size: 0.42666667rem;
+  color: #fff;
+  padding-left: 0.46666667rem;
+  height: 1.54666667rem;
+  line-height: 1.54666667rem;
+}
+.reserve_foot button {
+  font-size: 0.50666667rem;
+  color: #fff;
+  height: 1.54666667rem;
+  border: none;
+  background: #9f7b59;
+  outline: none;
+}

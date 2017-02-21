@@ -1,0 +1,32 @@
+.wap {
+  width: 10rem;
+  height: 17.73333333rem;
+  background: url("../images/bg1.jpg") no-repeat center;
+  background-size: cover;
+}
+.iNdex {
+  width: 3.22666667rem;
+  padding: 0 0 0 0.90666667rem;
+  height: 17.73333333rem;
+  background: rgba(0, 0, 0, 0.5);
+}
+.wap .log {
+  width: 2.16rem;
+  height: 1.89333333rem;
+  padding: 0.64rem 0 0.96rem 0;
+}
+.wap .log img {
+  width: 100%;
+  height: 100%;
+}
+.wap li {
+  padding: 0.50666667rem 0 0.50666667rem 0;
+  width: 2.24rem;
+  text-align: center;
+  font-size: 0.42666667rem;
+  background: url("../images/tiao.png") no-repeat 0 bottom;
+  background-size: 100%;
+}
+.wap li a {
+  color: #fff;
+}
