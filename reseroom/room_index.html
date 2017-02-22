@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>舒适客房</title>
     <link href="../css/reset.css" rel="stylesheet" type="text/css">
-    <link href="../css/public.css" rel="stylesheet" type="text/css">
+    <link href="../css/public.css" rel="stylesheet" type="text/css">   
+    <style>
+    	.jiazai{
+			position: absolute;
+			bottom: -80px;
+			left: 0;
+			width: 100%;
+			height: 80px;
+			font: .7rem/80px "宋体";
+			text-align:  center;
+		}
+    </style>
 </head>
 <body>
 <div class="wrap">
+	
     <nav>
         <ul class="clearfix">
             <li class="fl fan"><a href="../new_file.html"><img src="../images/fan.png"/></a></li>
@@ -29,7 +41,9 @@
             </li>
         </ul>
     </nav>
-    <div class="amuse_dex">
+   	
+   
+   <div class="amuse_dex">
         <ul class="Img_list">
             <li>
                 <div>
@@ -67,17 +81,21 @@
                 </a>
             </li>
         </ul>
-    </div>
+   		<div class="jiazai">上滑加载更多内容</div>
+</div>
 </div>
 </body>
 </html>
 <script src="../js/jQuery/jquery-3.1.0.min.js"></script>
+
+
 <script src="../js/public.js"></script>
 <script src="../js/tool.js" type="text/javascript"></script>
+
 <script>
     $(function () {
-        tools.twoNav("#nav_first")
-        tools.topScroll(".amuse_dex")
+       tools.twoNav("#nav_first")
+       tools.topScroll(".amuse_dex")
 
     })
 </script>
